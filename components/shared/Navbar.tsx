@@ -7,7 +7,7 @@ import DropdownMenu from '../DropdownMenu'
 const Navbar = () => {
   return (
       <nav className="fixed z-50 top-0 left-0 w-full bg-neutral-950/70 backdrop-blur-md border-b border-white/5 flex justify-between items-center  py-4 px-10">
-        <div className='flex items-center gap-24'>
+        <div className='flex items-center gap-20'>
           <Link href={"/"} className='flex items-center gap-2'>
             <Image
               src={"/logos/logo.svg"}
@@ -17,7 +17,7 @@ const Navbar = () => {
             />
             <p className="text-3xl font-medium tracking-wide font-cinzel text-white">Quivr</p>
           </Link>
-          <div className="flex gap-16 text-white/50  hover:*:text-white/80 *:relative *:z-0 *:flex *:items-center *:gap-1">
+          <div className="flex gap-12 text-white/50  hover:*:text-white/80 *:relative *:z-0 *:flex *:items-center *:gap-1">
            <DropdownMenu title='Solutions'>
             <p><PencilRuler width={20}/>Engineering</p>
             <p><Users width={20}/>People</p>

@@ -19,6 +19,15 @@ const config: Config = {
         roboto: ["var(--font-roboto)", "serif"],
       }
     },
+    keyframes:{
+      moving:{
+        '0%':{transform:'translate(0%,0%)'},
+        '100%':{transform:'translate(-100%,0%)'},
+      }
+    },
+    animation:{
+      moving:'moving 20s linear infinite'
+    }
   },
   plugins: [],
 };
